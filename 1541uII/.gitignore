@@ -1,0 +1,16 @@
+*.o
+\#*\#
+*~
+arkiv
+slask
+target/fpga/work*
+target/software/*/output
+target/software/*/result
+tools/bin2hex
+tools/hex2bin
+tools/make_array
+tools/make_mem
+tools/makeappl
+tools/promgen
+tools/64tass/64tass
+

@@ -1,0 +1,225 @@
+
+	*=$0801
+	.word ss,2005
+	.null $9e,^start;sys
+ss	.word 0
+
+reu_status      = $DF00
+reu_command     = $DF01
+reu_c64base_l   = $DF02
+reu_c64base_h   = $DF03
+reu_reubase_l   = $DF04
+reu_reubase_m   = $DF05
+reu_reubase_h   = $DF06
+reu_translen_l  = $DF07
+reu_translen_h  = $DF08
+reu_irqmask     = $DF09
+reu_control     = $DF0A
+reu_size_read   = $DF0C
+reu_start_delay = $DF0D
+reu_rate_div    = $DF0E
+reu_translen_x  = $DF0F
+
+reu_mode_toreu   = $B0
+reu_mode_toc64   = $B1
+reu_mode_swap    = $B2
+reu_mode_verify  = $B3
+
+reu_ctrl_nofix   = $00
+reu_ctrl_fixc64  = $80
+reu_ctrl_fixreu  = $40
+reu_ctrl_fixboth = $C0
+
+sid_freq_l3      = $D40E
+sid_freq_h3      = $D40F
+sid_pw_l3        = $D410
+sid_pw_h3        = $D411 
+sid_control3     = $D412
+sid_ad3          = $D413
+sid_sr3          = $D414
+sid_volume       = $D418
+sid_osc3         = $D41B
+sid_env3         = $D41C
+
+buffer_addr      = $3000
+buffer_size      = $4000     
+sample_length    = $400000
+num_buffers      = sample_length / buffer_size ; should be 256
+attack_array     = $1000
+decay_array      = $1200
+attack           = $02
+
+start	sei
+        lda #$0B
+        sta $D011
+        
+        ; set release to any other value than 0 and wait to see if the counter will be unequal to zero.
+        lda #$F5
+        sta sid_sr3
+
+; delay loop
+        ldx #0
+        ldy #0
+-       dey
+        bne -
+        dex
+        bne -
+
+        lda #15
+        sta sid_volume
+
+        lda #<(sample_length & $FFFF)
+        sta reu_translen_l
+        lda #>(sample_length & $FFFF)
+        sta reu_translen_h
+        lda #(sample_length >> 16)
+        sta reu_translen_x
+        lda #0
+        sta reu_reubase_l
+        sta reu_reubase_m
+        sta reu_reubase_h
+        lda #<sid_env3
+        sta reu_c64base_l
+        lda #>sid_env3
+        sta reu_c64base_h
+        lda #reu_ctrl_fixc64
+        sta reu_control
+
+        lda #$40
+        sta sid_freq_h3
+
+        lda #$21 ; attack=2, decay=1
+        sta sid_ad3
+        lda #$F4 ; sustain=F, release=4.
+        sta sid_sr3
+        lda #$11 ; 2 cycles
+        sta sid_control3 ; 4 cycles
+        
+; delay loop = 328964 cycles (good for attack prescalers up to 050A, setting up to 9)
+        ldx #0  ; 2 cycles
+        ldy #0  ; 2 cycles
+-       dey     ; 2 cycles * 65536
+        bne -   ; 3 cycles * 65536
+        dex     ; 2 cycles * 256
+        bne -   ; 3 cycles * 256
+
+        lda #6
+        sta reu_start_delay
+        lda #reu_mode_toreu
+        sta reu_command
+        lda #$10 ; gate off
+        sta sid_control3
+        ; reu starts now!
+
+        lda #$1B
+        sta $d011
+
+analyze
+init    lda #0
+        sta top_reached
+        ldx #0
+-       sta attack_array,x
+        sta attack_array+256,x
+        sta decay_array,x
+        sta decay_array+256,x
+        inx
+        bne -
+
+for_each_buffer
+        ldx #0
+-       txa
+        pha
+        jsr fetch_buffer
+        jsr count_bytes
+        pla
+        tax
+        inx
+        cpx #$10
+        bne -
+done
+        rts
+
+
+fetch_buffer
+        ; fetch reu data to C64 memory
+        lda #<buffer_size
+        sta reu_translen_l
+        lda #>buffer_size
+        sta reu_translen_h
+        lda #$00
+        sta reu_translen_x
+        sta reu_reubase_l
+        sta $fd
+        stx $fe
+        lsr $fe
+        ror $fd
+        lsr $fe
+        ror $fd
+        lda $fd
+        sta reu_reubase_m
+        lda $fe
+        sta reu_reubase_h
+        lda #<buffer_addr
+        sta reu_c64base_l
+        lda #>buffer_addr
+        sta reu_c64base_h
+        lda #0
+        sta reu_start_delay
+        lda #reu_ctrl_nofix
+        sta reu_control
+        lda #reu_mode_toc64
+        sta reu_command
+        nop
+        nop
+        nop
+        rts
+       
+        
+count_bytes
+        lda #<buffer_addr
+        sta $fb
+        lda #>buffer_addr
+        sta $fc
+        ldy #0
+-       lda top_reached
+        bne decay
+        lda ($fb),y
+        cmp #$ff
+        bne +
+        sta top_reached       
++       lda ($fb),y
+        bmi ++ ; 80 or higher
+        asl
+        tax
+        inc attack_array,x
+        bne next
+        inc attack_array+1,x
++       jmp next
++       asl
+        tax
+        inc attack_array+256,x
+        bne next
+        inc attack_array+257,x
+next    iny
+        bne -
+        inc $fc
+        lda $fc
+        cmp #>(buffer_addr + buffer_size)
+        bne -
+        rts
+decay   lda ($fb),y
+        bmi ++ ; 80 or higher
+        asl
+        tax
+        inc decay_array,x
+        bne +
+        inc decay_array+1,x
++       jmp next
++       asl
+        tax
+        inc decay_array+256,x
+        bne next
+        inc decay_array+257,x
+        jmp next
+        
+top_reached .byte 0
