@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/gideonz_1541Ultimate/!svn/ver/8/1541u/system/src
+END
+last.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/system/src/last.c
+END
+cartridge.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/gideonz_1541Ultimate/!svn/ver/8/1541u/system/src/cartridge.c
+END
+c64_irq.asm
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/system/src/c64_irq.asm
+END
+copper.asm
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/system/src/copper.asm
+END
+timing.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/system/src/timing.c
+END
+soft_signal.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/system/src/soft_signal.c
+END

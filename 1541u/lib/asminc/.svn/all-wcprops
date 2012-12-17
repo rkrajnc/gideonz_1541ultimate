@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/asminc
+END
+ser-kernel.inc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/asminc/ser-kernel.inc
+END
+o65.inc
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/asminc/o65.inc
+END
+tgi-error.inc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/asminc/tgi-error.inc
+END
+rs232.inc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/asminc/rs232.inc
+END
+_heap.inc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/asminc/_heap.inc
+END
+utsname.inc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/asminc/utsname.inc
+END
+zeropage.inc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/asminc/zeropage.inc
+END
+signal.inc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/asminc/signal.inc
+END
+_file.inc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/asminc/_file.inc
+END
+modload.inc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/asminc/modload.inc
+END
+joy-kernel.inc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/asminc/joy-kernel.inc
+END
+em-kernel.inc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/asminc/em-kernel.inc
+END
+ser-error.inc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/asminc/ser-error.inc
+END
+stdio.inc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/asminc/stdio.inc
+END
+ctype.inc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/asminc/ctype.inc
+END
+errno.inc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/asminc/errno.inc
+END
+em-error.inc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/asminc/em-error.inc
+END
+get_tv.inc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/asminc/get_tv.inc
+END
+joy-error.inc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/asminc/joy-error.inc
+END
+lynx.inc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/asminc/lynx.inc
+END
+atari.inc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/asminc/atari.inc
+END
+tgi-kernel.inc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/asminc/tgi-kernel.inc
+END
+tgi-mode.inc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/asminc/tgi-mode.inc
+END
+mouse-kernel.inc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/asminc/mouse-kernel.inc
+END
+fcntl.inc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/asminc/fcntl.inc
+END

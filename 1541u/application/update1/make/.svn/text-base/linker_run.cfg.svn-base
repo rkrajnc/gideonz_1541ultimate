@@ -1,0 +1,32 @@
+        MEMORY {
+            PAGE0:    start = $0002, size = $00FE;
+            STACK:    start = $0200, size = $0E00, define = yes;
+            FRAM:     start = $1000, size = $1000, define = yes, file = "fastcode.bin";
+            MAP3:     start = $3000, size = $1000;
+            MAP1:     start = $4000, size = $2000;
+            MAP2:     start = $6000, size = $2000;
+            BANK1:    start = $8000, size = $8000, file = "bank1.bin";
+            DATA_RAM: start = $8000, size = $4000;
+            DATA_ROM: start = $C000, size = $4000, file = "datspace.bin";
+            APPL:     start = $2000, size = $E000, file = %O;
+        }
+
+        SEGMENTS {
+            ZEROPAGE: load = PAGE0,  type = zp;
+
+            VECTORS:  load = APPL,   type = ro;
+            STARTUP:  load = APPL,   type = ro;
+			LIBCODE:  load = APPL,   type = ro;
+			DMACODE:  load = APPL,   type = ro;
+            CODE:     load = APPL,   type = ro;
+
+            FASTCODE: load = FRAM,   type = ro;  
+            FASTDATA: load = DATA_ROM, run = FRAM, type = rw, define = yes;
+
+            FILESYS:  load = BANK1,  type = ro;
+
+            BSS:      load = DATA_RAM, type = bss, define = yes;
+
+            RODATA:   load = DATA_ROM, type = ro;
+            DATA:     load = DATA_ROM, run = DATA_RAM, type = rw, define = yes;
+        }

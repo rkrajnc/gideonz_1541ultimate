@@ -1,0 +1,46 @@
+3 = clock out
+2 = clock in
+1 = data out
+0 = data in
+
+Thus:
+
+2 LDA #$0A
+4 STA $1800
+3 LDA $02
+2 LDA #$00
+4 STA $1800
+ 9
+
+2 LDX #$00
+5 LDA $0600,X <   <- data to send
+2 TAY         |
+2 AND #$0F    |
+4 STA $1800   |   <- outputs bit 3/1
+ 22 / 15
+2 ASL         |
+2 AND #$0F    |
+4 STA $1800   |   <- outputs bit 2/0
+ 8
+5 LDA $0700,Y |   <- fetches high nibble in lower bits
+4 STA $1800   |   <- outputs bit 7/5
+ 9
+2 ASL         |
+2 AND #$0F    |
+4 STA $1800   |   <- outputs bit 6/4
+ 8
+2 INX         |
+2 TXA         |
+2 AND #$03    |
+3 BNE        / 
+
+(This bit of routine thus sends out 4 bytes)
+
+LDY #$02
+STY $1800       <- data low, clock high (sync?)
+CPX #$00
+BNE loopstart   <- not yet all bytes done?
+
+..
+do the same for the other remaining #$44 bytes, total: 0x144 bytes (324)
+

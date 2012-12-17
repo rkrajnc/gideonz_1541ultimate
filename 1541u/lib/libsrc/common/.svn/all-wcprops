@@ -1,0 +1,923 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/gideonz_1541Ultimate/!svn/ver/4/1541u/lib/libsrc/common
+END
+strncat.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/strncat.s
+END
+errormsg.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/errormsg.c
+END
+fread.s
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/fread.s
+END
+rand.s
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/rand.s
+END
+isspace.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/isspace.s
+END
+fgetpos.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/fgetpos.c
+END
+getcpu.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/getcpu.s
+END
+fgets.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/fgets.c
+END
+isprint.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/isprint.s
+END
+perror.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/perror.c
+END
+calloc.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/calloc.s
+END
+_scanf.inc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/_scanf.inc
+END
+printf.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/printf.s
+END
+memchr.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/memchr.s
+END
+_sys.s
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/_sys.s
+END
+_environ.s
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/_environ.s
+END
+strerror.s
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/strerror.s
+END
+_heapblocksize.s
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/_heapblocksize.s
+END
+gets.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/gets.c
+END
+strupper.s
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/strupper.s
+END
+isupper.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/isupper.s
+END
+_heapmemavail.s
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/_heapmemavail.s
+END
+time.s
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/time.s
+END
+realloc.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/realloc.c
+END
+asctime.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/asctime.c
+END
+longjmp.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/longjmp.s
+END
+_fopen.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/_fopen.s
+END
+strtok.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/strtok.c
+END
+strlen.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/strlen.s
+END
+strcmp.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/strcmp.s
+END
+_scanf.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/_scanf.c
+END
+_scanf.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/_scanf.h
+END
+modfree.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/modfree.s
+END
+strlower.s
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/strlower.s
+END
+strcoll.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/strcoll.s
+END
+_fdesc.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/_fdesc.s
+END
+islower.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/islower.s
+END
+ispunct.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/ispunct.s
+END
+bsearch.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/bsearch.c
+END
+strcspn.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/strcspn.s
+END
+getchar.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/getchar.c
+END
+atexit.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/atexit.s
+END
+vsscanf.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/vsscanf.s
+END
+system.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/system.c
+END
+divt.s
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/divt.s
+END
+isalnum.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/isalnum.s
+END
+getcwd.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/getcwd.s
+END
+stricmp.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/stricmp.s
+END
+isalpha.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/isalpha.s
+END
+isblank.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/isblank.s
+END
+maperrno.s
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/maperrno.s
+END
+isxdigit.s
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/isxdigit.s
+END
+strxfrm.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/strxfrm.c
+END
+_printf.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/_printf.h
+END
+ftell.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/ftell.c
+END
+qsort.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/qsort.c
+END
+_oserror.s
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/_oserror.s
+END
+isdigit.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/isdigit.s
+END
+ltoa.s
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/ltoa.s
+END
+fscanf.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/fscanf.s
+END
+_printf.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/_printf.s
+END
+strstr.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/strstr.s
+END
+fmisc.s
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/fmisc.s
+END
+raise.s
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/raise.s
+END
+putchar.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/putchar.s
+END
+fprintf.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/fprintf.s
+END
+rewind.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/rewind.c
+END
+_swap.s
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/_swap.s
+END
+_cwd.s
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/_cwd.s
+END
+_heap.s
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/_heap.s
+END
+strftime.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/strftime.c
+END
+freopen.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/freopen.c
+END
+memcmp.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/memcmp.s
+END
+vscanf.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/vscanf.s
+END
+labs.s
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/labs.s
+END
+putenv.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/putenv.s
+END
+sprintf.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/sprintf.s
+END
+_heapadd.s
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/_heapadd.s
+END
+errno.s
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/errno.s
+END
+strncmp.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/strncmp.s
+END
+zerobss.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/zerobss.s
+END
+getenv.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/getenv.s
+END
+sleep.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/sleep.c
+END
+vprintf.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/vprintf.s
+END
+chdir.s
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/chdir.s
+END
+memset.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/memset.s
+END
+sigtable.s
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/sigtable.s
+END
+itoa.s
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/itoa.s
+END
+atoi.s
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/atoi.s
+END
+remove.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/remove.s
+END
+_file.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/_file.h
+END
+fsetpos.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/fsetpos.c
+END
+copydata.s
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/copydata.s
+END
+uname.s
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/uname.s
+END
+abs.s
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/abs.s
+END
+memmove.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/memmove.s
+END
+mktime.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/mktime.c
+END
+timezone.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/timezone.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/Makefile
+END
+_file.s
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/_file.s
+END
+locale.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/locale.c
+END
+strcpy.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/strcpy.s
+END
+abort.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/abort.c
+END
+strrchr.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/strrchr.s
+END
+_poserror.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/_poserror.c
+END
+vfprintf.s
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/vfprintf.s
+END
+toupper.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/toupper.s
+END
+strcat.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/strcat.s
+END
+fputc.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/fputc.c
+END
+setjmp.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/setjmp.s
+END
+rename.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/rename.s
+END
+fopen.s
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/fopen.s
+END
+fclose.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/fclose.s
+END
+vsprintf.s
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/vsprintf.s
+END
+searchenv.s
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/searchenv.s
+END
+iscntrl.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/iscntrl.s
+END
+modload.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/modload.s
+END
+strdup.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/strdup.s
+END
+fputs.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/fputs.c
+END
+_hextab.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/_hextab.c
+END
+scanf.s
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/scanf.s
+END
+fdopen.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/fdopen.c
+END
+tolower.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/tolower.s
+END
+creat.s
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/creat.s
+END
+_heapmaxavail.s
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/_heapmaxavail.s
+END
+unlink.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/unlink.s
+END
+_seterrno.s
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/_seterrno.s
+END
+ctime.s
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/ctime.s
+END
+gmtime.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/gmtime.c
+END
+_afailed.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/_afailed.c
+END
+strchr.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/strchr.s
+END
+utscopy.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/utscopy.s
+END
+malloc.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/malloc.s
+END
+puts.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/puts.c
+END
+sscanf.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/sscanf.s
+END
+fseek.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/fseek.c
+END
+free.s
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/free.s
+END
+stroserr.s
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/stroserr.s
+END
+ungetc.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/ungetc.s
+END
+vfscanf.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/vfscanf.s
+END
+strpbrk.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/strpbrk.s
+END
+oserrcheck.s
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/oserrcheck.s
+END
+strspn.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/strspn.s
+END
+localtime.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/localtime.c
+END
+pmemalign.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/pmemalign.c
+END
+memcpy.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/memcpy.s
+END
+isgraph.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/isgraph.s
+END
+fwrite.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/fwrite.s
+END
+strncpy.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/strncpy.s
+END
+mkdir.s
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/mkdir.s
+END
+fgetc.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/fgetc.c
+END
+rmdir.s
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/rmdir.s
+END
+signal.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/common/signal.s
+END

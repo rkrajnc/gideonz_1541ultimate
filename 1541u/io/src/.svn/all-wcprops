@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/gideonz_1541Ultimate/!svn/ver/13/1541u/io/src
+END
+dma.asm
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/gideonz_1541Ultimate/!svn/ver/9/1541u/io/src/dma.asm
+END
+iec.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/gideonz_1541Ultimate/!svn/ver/13/1541u/io/src/iec.c
+END
+card_irq.asm
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/io/src/card_irq.asm
+END
+diskio.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/io/src/diskio.c
+END
+sd.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/io/src/sd.c
+END
+cs8900a.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/io/src/cs8900a.c
+END
+keyb.asm
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/io/src/keyb.asm
+END
+onewire.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/io/src/onewire.c
+END
+spi.asm
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/io/src/spi.asm
+END
+uart.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/io/src/uart.c
+END
+buttons.asm
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/io/src/buttons.asm
+END
+screen.asm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/io/src/screen.asm
+END

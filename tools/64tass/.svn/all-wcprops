@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/gideonz_1541Ultimate/!svn/ver/20/tools/64tass
+END
+misc.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/gideonz_1541Ultimate/!svn/ver/19/tools/64tass/misc.h
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/gideonz_1541Ultimate/!svn/ver/19/tools/64tass/LICENSE
+END
+opcodes.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/gideonz_1541Ultimate/!svn/ver/19/tools/64tass/opcodes.h
+END
+64tass.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/gideonz_1541Ultimate/!svn/ver/20/tools/64tass/64tass.c
+END
+misc.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/gideonz_1541Ultimate/!svn/ver/20/tools/64tass/misc.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/gideonz_1541Ultimate/!svn/ver/19/tools/64tass/Makefile
+END
+opcodes.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/gideonz_1541Ultimate/!svn/ver/19/tools/64tass/opcodes.c
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/conio
+END
+cputs.s
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/conio/cputs.s
+END
+cputhex.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/conio/cputhex.s
+END
+scrsize.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/conio/scrsize.s
+END
+vcscanf.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/conio/vcscanf.s
+END
+cprintf.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/conio/cprintf.s
+END
+vcprintf.s
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/conio/vcprintf.s
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/conio/Makefile
+END
+_cursor.s
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/conio/_cursor.s
+END
+cscanf.s
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/conio/cscanf.s
+END
+cursor.s
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/lib/libsrc/conio/cursor.s
+END

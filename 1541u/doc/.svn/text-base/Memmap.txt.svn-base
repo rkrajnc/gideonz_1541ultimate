@@ -1,0 +1,107 @@
+System address (SADDR):
+    00-08 MB   000.0000 - 07F.FFFF = SRAM     (16 mirrors of 512K)
+    08-16 MB   080.0000 - 0FF.FFFF = C-64 DMA (128 mirrors of 64K)
+    16-20 MB   100.0000 - 13F.FFFF = Flash    (2 mirrors of 2 MB)
+    20-24 MB   140.0000 - 17F.FFFF = CS8900A  (131072 mirrors of 16 bytes)
+    24-32 MB   180.0000 - 1FF.FFFF = SDRAM Command
+    32-64 MB   200.0000 - 3FF.FFFF = SDRAM    (no mirrors, full 32MB)
+	
+Mapper configuration MCON for MAP1 and MAP2:
+SADDER >> 13 = MCON
+
+Commodore address examples
+
+	C-64 address $D020 => SADDR: $080D020
+	
+	MCON = ($080D020 >> 13) = $0406, remainder = $1020
+	
+	65GZ02 address = Map address + Remainder
+	
+	This comes to:
+		Map1 $4000 + $1020 = $5020		
+		Map2 $6000 + $1020 = $7020
+    
+    Or just to (fixed map to C-64 IO space):
+        Map3 $3000 + $0020 = $3020
+
+
+SRAM Usage:
+
+ 00000-4FFFF  Max 40 tracks of GCR data (8K each)
+ 50000-57FFF  Action Replay RAM (32K)
+ 58000-5FFFF  Application extension (Filesystem).
+ 60000-61FFF  IEC Directory storage (8K)
+ 62000-63FFF  Menu Directory storage (8K)
+ 64000-67FFF  1541 ROM (16K)
+ 68000-6FFFF  SD CPU Data space (32K)
+ 70000-707FF  Chars (2K)
+ 70800-71FFF  Backup space for freeze (6K)
+ 72000-7FFFF  SD CPU Application (56K), upper 32K bankable
+
+
+Flash Usage:
+?????
+1010000-1017FFF  Action Replay ROM (32K)
+1018000-101FFFF  Action Replay ROM (32K) - Alternate
+1020000-102FFFF  Final Cartrige III (64K)
+1030000-103xxxx  Audio samples (max 64K)
+1040000-104FFFF  Retro Replay (64K)
+1050000-105FFFF  Super Snapshot V5 (64K)
+1060000-106FFFF  NTSC ARs
+1070000-107FFFF  NTSC Retro Replay
+1080000-108FFFF  NTSC SuperSnapshot V5.22
+1090000-109FFFF  PAL TAR w/ codenet
+--10A0000-10A3FFF  KCS Power
+1140000-1190000  Application (max 320K)
+1?????0-1FFFFFF  Bootloader (500E)
+11DA600-1FFFFFF  Bootloader (250E)
+
+SDRAM Usage:
+2000000-2FFFFFF  Free (16MB)  (GCR loads here!)
+3000000-3FFFFFF  REU
+
+65GZ02 DATA map:
+
+0000-1FFF Block RAM (BLRAM)
+2000-2FFF Peripherals (PERIP)
+3000-3FFF Map 3 (Fixed to $80D000, which is I/O space in the C64)
+4000-5FFF Map 1 (MAP1)
+6000-7FFF Map 2 (MAP2)
+8000-FFFF Data  (DATA)  -> 68000-6FFFF
+
+65GZ02 CODE map:
+
+0000-1FFF Block RAM (BLRAM)
+2000-7FFF Fixed CODE (FIXCODE)     -> 72000-77FFF
+8000-FFFF Mappable Code (MAPCODE)  -> 78000-7FFFF (default)
+
+    MAP_CODE:
+    Bit 7..5  maps to bit 25..23 of flat address
+    bit 4..0  maps to bit 19..15 of flat address
+
+    00 => 000.0000 - 000.7FFF (sram)
+    01 => 000.8000 - 000.FFFF (sram)
+    02 => 001.0000 - 001.7FFF (sram)
+    ...
+    0F => 007.8000 - 007.FFFF (sram, default)
+    ...
+    20 => 080.0000 - 080.7FFF (first half of C64 memory)
+    21 => 080.8000 - 080.FFFF (second half of C64 memory)
+    ...
+    40 => 100.0000 - 100.7FFF (flash)
+    ...
+    5F => 10F.8000 - 10F.FFFF (flash)
+    ...
+    80 => 200.0000 - 200.7FFF (sdram)
+    ...
+    
+
+Happy bankswitching!
+
+
+ONEWIRE Map:
+00-1F: User Name (as programmed at personalize)
+
+60   : Basic/Plus version 00 = basic, FF = plus
+61   : Future pre-disabled features
+

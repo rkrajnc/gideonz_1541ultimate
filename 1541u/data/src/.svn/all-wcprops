@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/gideonz_1541Ultimate/!svn/ver/9/1541u/data/src
+END
+bam_hdr.bin
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/data/src/bam_hdr.bin
+END
+sid_play.asm
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/gideonz_1541Ultimate/!svn/ver/9/1541u/data/src/sid_play.asm
+END
+asciipetscii.asm
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/data/src/asciipetscii.asm
+END
+combsort.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/data/src/combsort.c
+END
+data_tools.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/data/src/data_tools.c
+END
+gcr.asm
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/data/src/gcr.asm
+END
+bam_hdr.asm
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/gideonz_1541Ultimate/!svn/ver/2/1541u/data/src/bam_hdr.asm
+END
+sid_play.bin
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/gideonz_1541Ultimate/!svn/ver/9/1541u/data/src/sid_play.bin
+END
